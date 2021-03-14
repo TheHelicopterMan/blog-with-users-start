@@ -1,0 +1,49 @@
+{% include "header.html" %}
+
+  <!-- Page Header -->
+  <header class="masthead" style="background-image: url({{ url_for('static', filename='img/about-bg.jpg')}})">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="page-heading">
+            <h1>About Me</h1>
+            <span class="subheading">This is what I do.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <p>Hello everyone,</p>
+        <p> My name is Nyaluak P. Deng.</p>
+        <p>This blog is about what I like to do on my free time.</p>
+
+        <li>
+          <a href="#">Arts and Crafts</a>
+        </li>
+        <li>
+          <a href="#">Cooking</a>
+        </li>
+
+        <li>
+          <a href="#">Singing</a>
+        </li>
+
+         <li>
+          <a href="#">Designing Clothes</a>
+        </li>
+
+
+        <p>If you enjoy the content I create please like , share and  subscribing to my <a href="https://www.youtube.com"><em>Youtube Channel</em></a>.</p>
+      </div>
+    </div>
+  </div>
+
+  <hr>
+
+  {% include "footer.html" %}
